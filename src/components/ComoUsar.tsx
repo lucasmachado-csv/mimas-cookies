@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ComoUsar() {
   return (
-    <section id="como-usar" className="mx-auto max-w-6xl px-6 py-16 lg:py-20">
+    <section id="como-usar" className="mx-auto max-w-mima px-6 lg:px-10 py-16 lg:py-20">
       <h2 className="text-center font-serif text-3xl text-azul text-balance sm:text-4xl">
         Escolha o seu caminho
       </h2>

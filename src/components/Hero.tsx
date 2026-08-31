@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-[1.1fr_1fr] lg:py-24">
+    <section className="mx-auto grid max-w-mima items-center gap-10 px-6 lg:px-10 py-16 lg:grid-cols-[1.1fr_1fr] lg:py-24">
       <div>
         <p className="font-serif text-sm tracking-[0.3em] text-caramelo">
           pode comer crua &nbsp;&middot;&nbsp; zero lactose

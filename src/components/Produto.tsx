@@ -3,14 +3,14 @@ import Image from "next/image";
 const selos = [
   "Gotas de chocolate de verdade",
   "Zero lactose",
-  "Sem ovo cru",
+  "Ovo pasteurizado",
   "Rende 12 cookies — ou nenhum",
 ];
 
 export default function Produto() {
   return (
     <section id="a-massa" className="bg-azul py-16 text-creme lg:py-24">
-      <div className="mx-auto max-w-6xl px-6 text-center">
+      <div className="mx-auto max-w-mima px-6 lg:px-10 text-center">
         <p className="font-serif text-sm tracking-[0.3em] text-[#e0b27e]">
           nosso primeiro sabor
         </p>

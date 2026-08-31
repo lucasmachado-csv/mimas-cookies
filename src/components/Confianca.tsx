@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const pilares = [
   {
     titulo: "Farinha tratada termicamente",
@@ -5,9 +7,9 @@ const pilares = [
       "A farinha passa por tratamento térmico que elimina os microrganismos da farinha crua — a mesma técnica das marcas líderes americanas.",
   },
   {
-    titulo: "Sem ovo cru na receita",
+    titulo: "Ovo pasteurizado, nunca cru",
     texto:
-      "Nossa fórmula não leva ovo cru. A cremosidade vem da manteiga e do ponto exato da massa — e o cookie assa perfeitamente do mesmo jeito.",
+      "Nossa receita leva ovo — pasteurizado antes de chegar à cozinha, num processo térmico que elimina o risco sem cozinhar o ovo. A cremosidade vem da gordura vegetal e do ponto exato da massa.",
   },
   {
     titulo: "Produção e frio controlados",
@@ -19,7 +21,7 @@ const pilares = [
 export default function Confianca() {
   return (
     <section id="pode-comer-crua" className="bg-baunilha py-16 lg:py-20">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-mima px-6 lg:px-10">
         <div className="text-center">
           <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
             segurança sem letra miúda
@@ -30,7 +32,11 @@ export default function Confianca() {
           <p className="mx-auto mt-4 max-w-xl text-tinta-suave">
             Massa de cookie comum não deve ser comida crua por dois motivos: ovo
             cru e farinha não tratada. A nossa resolve os dois — por projeto,
-            não por sorte.
+            não por sorte. Veja a{" "}
+            <Link href="/ingredientes" className="underline hover:text-azul">
+              lista completa de ingredientes
+            </Link>
+            .
           </p>
         </div>
 

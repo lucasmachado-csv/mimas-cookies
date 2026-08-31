@@ -15,7 +15,7 @@ const caminhos = [
 
 export default function Missao() {
   return (
-    <section id="nossa-historia" className="mx-auto max-w-6xl px-6 py-16 lg:py-20">
+    <section id="nossa-historia" className="mx-auto max-w-mima px-6 lg:px-10 py-16 lg:py-20">
       <div className="text-center">
         <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
           por que a Mima&rsquo;s existe

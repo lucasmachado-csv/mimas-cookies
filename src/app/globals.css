@@ -14,6 +14,9 @@
 }
 
 @theme inline {
+  /* Largura do miolo do site — um só lugar para ajustar a folga das laterais. */
+  --container-mima: 88rem;
+
   --color-azul: var(--azul);
   --color-profundo: var(--profundo);
   --color-creme: var(--creme);

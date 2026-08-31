@@ -3,7 +3,7 @@ import NewsletterForm from "./NewsletterForm";
 
 export default function OndeComprar() {
   return (
-    <section id="onde-comprar" className="mx-auto max-w-6xl px-6 py-16 text-center lg:py-24">
+    <section id="onde-comprar" className="mx-auto max-w-mima px-6 lg:px-10 py-16 text-center lg:py-24">
       <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
         na geladeira dos melhores mercados
       </p>

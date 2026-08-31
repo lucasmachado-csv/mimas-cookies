@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="mt-auto bg-profundo py-12 text-creme">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center">
+      <div className="mx-auto flex max-w-mima flex-col items-center gap-6 px-6 lg:px-10 text-center">
         <div className="leading-none">
           <span className="font-serif text-2xl font-bold tracking-[0.08em]">
             MIMA&rsquo;s
@@ -17,10 +19,11 @@ export default function Footer() {
 
         <nav aria-label="Rodapé">
           <ul className="flex flex-wrap justify-center gap-x-7 gap-y-2 text-sm font-semibold text-creme/80">
-            <li><a href="#a-massa" className="hover:text-creme">A Massa</a></li>
-            <li><a href="#pode-comer-crua" className="hover:text-creme">Pode Comer Crua?</a></li>
-            <li><a href="#nossa-historia" className="hover:text-creme">Nossa História</a></li>
-            <li><a href="#onde-comprar" className="hover:text-creme">Onde encontrar</a></li>
+            <li><Link href="/#a-massa" className="hover:text-creme">A Massa</Link></li>
+            <li><Link href="/ingredientes" className="hover:text-creme">Ingredientes</Link></li>
+            <li><Link href="/#pode-comer-crua" className="hover:text-creme">Pode Comer Crua?</Link></li>
+            <li><Link href="/#nossa-historia" className="hover:text-creme">Nossa História</Link></li>
+            <li><Link href="/#onde-comprar" className="hover:text-creme">Onde encontrar</Link></li>
           </ul>
         </nav>
 
