@@ -8,7 +8,7 @@ export default function OndeComprar() {
         na geladeira dos melhores mercados
       </p>
       <h2 className="mt-3 font-serif text-3xl text-azul text-balance sm:text-4xl">
-        Procure o pote azul
+        Procure a embalagem azul
       </h2>
       <p className="mx-auto mt-4 max-w-xl text-tinta-suave">
         Estamos chegando às geladeiras dos melhores mercados do Brasil.

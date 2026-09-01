@@ -5,10 +5,10 @@ export default function Hero() {
     <section className="mx-auto grid max-w-mima items-center gap-10 px-6 lg:px-10 py-16 lg:grid-cols-[1.1fr_1fr] lg:py-24">
       <div>
         <p className="font-serif text-sm tracking-[0.3em] text-caramelo">
-          pode comer crua &nbsp;&middot;&nbsp; zero lactose
+          pode comer crua &nbsp;&middot;&nbsp; pode assar
         </p>
         <h1 className="mt-4 font-serif text-4xl leading-tight text-azul text-balance sm:text-5xl lg:text-[3.4rem]">
-          Feita para comer de colher. Pronta para virar cookie.
+          Pode antes do forno. Fica melhor ainda depois.
         </h1>
         <div className="mt-8 flex flex-wrap gap-3">
           <a

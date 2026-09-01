@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const selos = [
   "Gotas de chocolate de verdade",
-  "Zero lactose",
+  "Farinha tratada termicamente",
   "Ovo pasteurizado",
-  "Rende 12 cookies — ou nenhum",
+  "12 porções — asse uma ou todas",
 ];
 
 export default function Produto() {
@@ -19,7 +19,7 @@ export default function Produto() {
         </h2>
 
         <div className="relative mx-auto mt-10 aspect-4/5 max-w-sm overflow-hidden rounded-3xl">
-          {/* Substituir pelo packshot do pote quando o produto for fotografado */}
+          {/* Substituir pelo packshot da embalagem quando o produto for fotografado */}
           <Image
             src="/images/cookie-partido.jpg"
             alt="Cookie de chocolate partido ao meio com chocolate derretido escorrendo"

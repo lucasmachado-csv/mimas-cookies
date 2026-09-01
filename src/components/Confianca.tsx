@@ -14,7 +14,7 @@ const pilares = [
   {
     titulo: "Produção e frio controlados",
     texto:
-      "Cozinha própria com controle lote a lote, cadeia refrigerada da fábrica à gôndola e validade clara no pote.",
+      "Cozinha própria com controle lote a lote, cadeia refrigerada da fábrica à gôndola e validade clara na embalagem.",
   },
 ];
 

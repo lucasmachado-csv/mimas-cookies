@@ -1,21 +1,21 @@
 const caminhos = [
   {
-    ilustracao: "colher",
+    ilustracao: "porção",
     titulo: "Para agora",
     texto:
-      "Aquela vontade de doce que não pode esperar. Abra o pote, pegue uma colher, pronto. A melhor parte de fazer cookie sempre foi raspar a tigela — então fizemos uma massa que é só a melhor parte.",
+      "Aquela vontade de doce que não pode esperar. Abra a embalagem, pegue uma porção, pronto. A melhor parte de fazer cookie sempre foi a massa crua — então fizemos uma massa que é só a melhor parte.",
   },
   {
     ilustracao: "forno",
     titulo: "Para daqui a 12 minutos",
     texto:
-      "Cookie quentinho, casquinha dourada, miolo cremoso — sem balança, sem batedeira, sem pia cheia de louça. Só bolear, assar e fingir que deu trabalho.",
+      "Cookie quentinho, casquinha dourada, miolo cremoso — sem balança, sem batedeira, sem pia cheia de louça. As porções já vêm cortadas: é só assar e fingir que deu trabalho.",
   },
 ];
 
 export default function Missao() {
   return (
-    <section id="nossa-historia" className="mx-auto max-w-mima px-6 lg:px-10 py-16 lg:py-20">
+    <section id="dois-caminhos" className="mx-auto max-w-mima px-6 lg:px-10 py-16 lg:py-20">
       <div className="text-center">
         <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
           por que a Mima&rsquo;s existe

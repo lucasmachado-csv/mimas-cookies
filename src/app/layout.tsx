@@ -17,7 +17,7 @@ const caslon = Libre_Caslon_Text({
 export const metadata: Metadata = {
   title: "Mima's Cookies — massa de cookie para comer crua ou assar",
   description:
-    "Massa de cookie chocolate chip, segura para comer crua ou assar em casa. Sem lactose, zero esforço, prazer completo.",
+    "Massa de cookie chocolate chip, segura para comer crua ou assar em casa. Zero esforço, prazer completo.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

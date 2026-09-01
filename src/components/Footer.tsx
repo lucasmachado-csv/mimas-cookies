@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         <p className="font-serif text-sm italic tracking-[0.2em] text-creme/80">
-          pode comer crua &nbsp;&middot;&nbsp; zero lactose
+          pode comer crua &nbsp;&middot;&nbsp; pode assar
         </p>
 
         <nav aria-label="Rodapé">
@@ -22,7 +22,7 @@ export default function Footer() {
             <li><Link href="/#a-massa" className="hover:text-creme">A Massa</Link></li>
             <li><Link href="/ingredientes" className="hover:text-creme">Ingredientes</Link></li>
             <li><Link href="/#pode-comer-crua" className="hover:text-creme">Pode Comer Crua?</Link></li>
-            <li><Link href="/#nossa-historia" className="hover:text-creme">Nossa História</Link></li>
+            <li><Link href="/nossa-historia" className="hover:text-creme">Nossa História</Link></li>
             <li><Link href="/#onde-comprar" className="hover:text-creme">Onde encontrar</Link></li>
           </ul>
         </nav>

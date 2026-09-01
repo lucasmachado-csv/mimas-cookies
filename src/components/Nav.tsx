@@ -2,10 +2,11 @@ import Link from "next/link";
 
 /* Links com "/" na frente para funcionarem também a partir das subpáginas. */
 const links = [
+  { href: "/#o-que-e", label: "O Que É?" },
   { href: "/#a-massa", label: "A Massa" },
   { href: "/ingredientes", label: "Ingredientes" },
   { href: "/#pode-comer-crua", label: "Pode Comer Crua?" },
-  { href: "/#nossa-historia", label: "Nossa História" },
+  { href: "/nossa-historia", label: "Nossa História" },
 ];
 
 export default function Nav() {

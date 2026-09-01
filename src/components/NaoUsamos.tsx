@@ -11,7 +11,7 @@ const ausencias = [
   },
   {
     titulo: "Manteiga",
-    texto: "A gordura é cem por cento vegetal.",
+    texto: "A gordura é cem por cento vegetal. A massa leva o aroma, não a manteiga.",
   },
   {
     titulo: "Corantes",
@@ -28,7 +28,7 @@ export default function NaoUsamos() {
             tão importante quanto a lista
           </p>
           <h2 className="mt-3 font-serif text-3xl text-azul text-balance sm:text-4xl">
-            O que não vai no pote
+            O que não vai na embalagem
           </h2>
         </div>
 

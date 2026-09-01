@@ -119,7 +119,7 @@ export default function IngredientesLista() {
         </h2>
         <p className="mt-4 max-w-lg text-creme/85">
           Meio amargo porque a massa já é doce. O contraste é o que faz você
-          voltar ao pote.
+          querer a próxima porção.
         </p>
       </div>
     </section>
