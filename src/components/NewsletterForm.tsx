@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function NewsletterForm() {
@@ -7,9 +8,20 @@ export default function NewsletterForm() {
 
   if (enviado) {
     return (
-      <p className="font-serif text-lg italic text-azul">
-        Anotado! Você vai ser a primeira pessoa a saber.
-      </p>
+      <div className="text-center">
+        <Image
+          src="/images/mima-correndo.png"
+          alt=""
+          aria-hidden
+          width={484}
+          height={667}
+          sizes="7rem"
+          className="mx-auto h-auto w-28"
+        />
+        <p className="mt-4 font-serif text-lg italic text-azul">
+          Anotado! Você vai ser a primeira pessoa a saber.
+        </p>
+      </div>
     );
   }
 
