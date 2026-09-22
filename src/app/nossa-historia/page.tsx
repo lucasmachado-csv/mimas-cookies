@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
-import HistoriaHero from "@/components/HistoriaHero";
+import PaginaHero from "@/components/PaginaHero";
 import HistoriaTexto from "@/components/HistoriaTexto";
 import Footer from "@/components/Footer";
 
@@ -15,7 +15,12 @@ export default function NossaHistoriaPage() {
     <>
       <Nav />
       <main>
-        <HistoriaHero />
+        <PaginaHero
+          trilha="Nossa História"
+          eyebrow="a pessoa por trás da marca"
+          titulo="Todo mundo me chama de Mima"
+          imagem="/images/pilha-leite.jpg"
+        />
         <HistoriaTexto />
       </main>
       <Footer />

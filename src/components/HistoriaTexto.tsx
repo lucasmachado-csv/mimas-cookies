@@ -5,17 +5,16 @@ export default function HistoriaTexto() {
     <article className="mx-auto max-w-mima px-6 lg:px-10 py-14 lg:py-20">
       <div className="mx-auto max-w-2xl">
         <p className="font-serif text-2xl leading-relaxed text-azul text-balance">
-          Sou a Carolina. Sou brasileira, moro em Miami e tenho a família toda
-          no Brasil.
+          Meu nome é Carolina, sou brasileira e vivi a vida inteira em Miami —
+          com a família toda no Brasil.
         </p>
 
         <div className="mt-8 space-y-6 text-lg leading-relaxed text-tinta-suave">
           <p>
-            Eles vêm me visitar sempre — e, em toda visita, sem exceção, o
-            pedido é o mesmo. Antes do passeio, antes do restaurante, antes de
-            qualquer outra coisa: massa de cookie. Comem crua enquanto o forno
-            esquenta e comem de novo quando os cookies saem, ainda quentes. Já
-            virou parte da viagem.
+            Sempre que minha família vem do Brasil me visitar em Miami, o
+            pedido é sempre o mesmo antes de qualquer outra coisa: massa de
+            cookie. Crua enquanto o forno esquenta, de novo quando os cookies
+            saem quentinhos — um ritual que virou nosso.
           </p>
           <p>
             Cresci assim. Quando batia a vontade de doce, minha mãe não
@@ -29,6 +28,14 @@ export default function HistoriaTexto() {
             que isso não existe no Brasil? Minha família atravessa um continente
             para comer uma coisa que devia estar na geladeira do mercado, a dez
             minutos de casa.
+          </p>
+          <p>
+            Foi assim que decidi trazer isso pro Brasil. Testei receita atrás de
+            receita até acertar o cookie que eu cresci amando — sem perder nada
+            do que fazia esse sabor ser especial. Hoje, é na Mima&rsquo;s que
+            coloco minha energia todos os dias. Cada porção sai daqui com
+            carinho de verdade, e minha esperança é que esse carinho chegue até
+            você também.
           </p>
         </div>
       </div>
@@ -50,15 +57,20 @@ export default function HistoriaTexto() {
 
         <div className="mt-8 space-y-6 text-lg leading-relaxed text-tinta-suave">
           <p>
-            É como minha família e meus amigos me chamam desde que eu era
-            criança, e como me chamam até hoje toda vez que eu chego no Brasil.
-            Quando resolvi que isso ia sair do papel, não fez o menor sentido
-            procurar outro nome.
+            É como minha família me chama desde criança — e como todo mundo me
+            chama assim que eu piso no Brasil. Na hora de dar nome à marca, não
+            fez sentido procurar outro.
           </p>
           <p>
-            A Mima&rsquo;s nasceu dessa mesa cheia de gente esperando o forno.
-            Se você também já comeu a massa antes de assar, acho que a gente vai
-            se dar bem.
+            A Mima&rsquo;s nasceu dessa mesa cheia, todo mundo esperando o forno
+            esquentar. Essa é a sensação que a gente quer trazer pra sua casa.
+          </p>
+          <p>
+            E se você ficou curioso de como a própria Mima gosta do cookie:
+            confesso que sou team borda-dourada-miolo-quase-cru. Tiro do forno
+            assim que a borda fica dourada e o meio ainda tá mole — sei que é
+            cedo demais pra muita gente, mas é o meu ponto favorito no mundo
+            inteiro.
           </p>
         </div>
 
