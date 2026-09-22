@@ -1,11 +1,13 @@
 import Link from "next/link";
 
-/* Links com "/" na frente para funcionarem também a partir das subpáginas. */
+/* Links com "/" na frente para funcionarem também a partir das subpáginas.
+   "O Que É?" cobre também a parte de comer crua: as duas seções ficam juntas
+   na home, então um link só dá conta das duas. */
 const links = [
   { href: "/#o-que-e", label: "O Que É?" },
-  { href: "/#a-massa", label: "A Massa" },
   { href: "/ingredientes", label: "Ingredientes" },
-  { href: "/#pode-comer-crua", label: "Pode Comer Crua?" },
+  { href: "/receitas", label: "Receitas" },
+  { href: "/perguntas", label: "Perguntas" },
   { href: "/nossa-historia", label: "Nossa História" },
 ];
 
@@ -37,7 +39,7 @@ export default function Nav() {
             ))}
           </ul>
           <Link
-            href="/#onde-comprar"
+            href="/onde-encontrar"
             className="rounded-full bg-azul px-5 py-2.5 text-sm font-bold text-creme transition-colors hover:bg-profundo"
           >
             Onde encontrar

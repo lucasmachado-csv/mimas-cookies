@@ -1,10 +1,10 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import OQueE from "@/components/OQueE";
-import Missao from "@/components/Missao";
 import Produto from "@/components/Produto";
 import Confianca from "@/components/Confianca";
 import ComoUsar from "@/components/ComoUsar";
+import ReceitasDestaque from "@/components/ReceitasDestaque";
 import NossaHistoria from "@/components/NossaHistoria";
 import Social from "@/components/Social";
 import OndeComprar from "@/components/OndeComprar";
@@ -17,10 +17,10 @@ export default function Home() {
       <main>
         <Hero />
         <OQueE />
-        <Missao />
-        <Produto />
         <Confianca />
+        <Produto />
         <ComoUsar />
+        <ReceitasDestaque />
         <NossaHistoria />
         <Social />
         <OndeComprar />

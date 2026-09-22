@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const selos = [
   "Gotas de chocolate de verdade",
@@ -9,14 +10,25 @@ const selos = [
 
 export default function Produto() {
   return (
-    <section id="a-massa" className="bg-azul py-16 text-creme lg:py-24">
+    <section id="a-massa" className="bg-azul py-20 text-creme lg:py-24">
       <div className="mx-auto max-w-mima px-6 lg:px-10 text-center">
-        <p className="font-serif text-sm tracking-[0.3em] text-[#e0b27e]">
+        <p className="font-serif text-sm tracking-[0.22em] text-[#e0b27e]">
           nosso primeiro sabor
         </p>
-        <h2 className="mx-auto mt-4 max-w-2xl font-serif text-3xl text-balance sm:text-4xl">
-          Chocolate chip clássica, do jeito que tinha que ser
+        <h2 className="mt-5 font-serif text-3xl text-balance sm:text-[2.5rem] sm:leading-tight">
+          O Original
         </h2>
+        <p className="mt-3 font-serif text-xl text-creme/85 sm:text-2xl">
+          Gotas de Chocolate
+        </p>
+        <p className="mt-4">
+          <Link
+            href="/ingredientes"
+            className="text-sm font-semibold text-creme/80 underline underline-offset-4 transition-colors hover:text-creme"
+          >
+            Ver os ingredientes
+          </Link>
+        </p>
 
         <div className="relative mx-auto mt-10 aspect-4/5 max-w-sm overflow-hidden rounded-3xl">
           {/* Substituir pelo packshot da embalagem quando o produto for fotografado */}

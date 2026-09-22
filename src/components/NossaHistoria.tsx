@@ -1,22 +1,26 @@
 import Link from "next/link";
+import PlaceholderMidia from "./PlaceholderMidia";
 
 export default function NossaHistoria() {
   return (
-    <section id="nossa-historia" className="bg-baunilha py-16 lg:py-20">
-      <div className="mx-auto max-w-mima px-6 lg:px-10">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
-            quem faz a Mima&rsquo;s
+    <section id="nossa-historia" className="py-20 lg:py-24">
+      {/* Texto de um lado, retrato do outro — outra quebra do ritmo centralizado. */}
+      <div className="mx-auto grid max-w-mima items-center gap-12 px-6 lg:grid-cols-2 lg:gap-20 lg:px-10">
+        <div>
+          <p className="font-serif text-sm tracking-[0.22em] text-caramelo">
+            a pessoa por trás da marca
           </p>
-          <h2 className="mt-3 font-serif text-3xl text-azul text-balance sm:text-4xl">
-            De onde veio a Mima&rsquo;s
+          <h2 className="mt-5 font-serif text-3xl text-azul text-balance sm:text-[2.5rem] sm:leading-tight">
+            A jornada até a Mima&rsquo;s
           </h2>
-          <p className="mt-5 text-tinta-suave">
-            Sou a Carolina — brasileira, moro em Miami, e minha família toda
-            mora no Brasil. Toda vez que eles vêm me visitar, o pedido é o
-            mesmo: massa de cookie. Crua enquanto o forno esquenta, assada logo
-            depois. Um dia a pergunta ficou óbvia demais para ignorar: por que
-            isso não existe no Brasil?
+          <p className="mt-6 text-lg leading-relaxed text-tinta-suave">
+            Meu nome é Carolina. Sou brasileira, mas cresci a vida inteira em
+            Miami. Com a família vindo do Brasil pra me visitar o tempo todo,
+            tinha sempre um pedido em comum: cookie dough. Crua ou assada,
+            sempre voltavam atrás daquele sabor nostálgico que a gente conhece e
+            ama aqui nos Estados Unidos. Com o tempo, comecei a me perguntar:
+            por que cookie dough não existe no Brasil? E foi assim que a
+            Mima&rsquo;s nasceu.
           </p>
 
           <Link
@@ -26,6 +30,12 @@ export default function NossaHistoria() {
             Ler a história completa
           </Link>
         </div>
+
+        <PlaceholderMidia
+          rotulo="retrato da Carolina"
+          nota="A história é pessoal — a seção pede o rosto de quem conta."
+          className="aspect-4/5"
+        />
       </div>
     </section>
   );

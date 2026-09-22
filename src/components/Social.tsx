@@ -13,29 +13,46 @@ const slots = [
     rotulo: "reel · a mesa cheia",
     nota: "Gente esperando o forno, do jeito Mima's.",
   },
+  {
+    rotulo: "reel · a embalagem na geladeira",
+    nota: "A Mima's entre as compras da semana.",
+  },
+  {
+    rotulo: "reel · o primeiro mercado",
+    nota: "O dia em que a Mima's chegou na gôndola.",
+  },
 ];
 
 export default function Social() {
   return (
-    <section className="mx-auto max-w-mima px-6 lg:px-10 py-16 lg:py-20">
-      <div className="mx-auto max-w-2xl text-center">
-        <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
+    <section className="bg-baunilha py-20 lg:py-24">
+      <div className="mx-auto max-w-mima px-6 text-center lg:px-10">
+        <a
+          href="https://instagram.com/mimascookies"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-serif text-sm tracking-[0.22em] text-caramelo hover:text-azul"
+        >
           @mimascookies
-        </p>
-        <h2 className="mt-3 font-serif text-3xl text-azul text-balance sm:text-4xl">
-          A massa fica melhor em vídeo
+        </a>
+        <h2 className="mt-5 font-serif text-3xl text-azul text-balance sm:text-[2.5rem] sm:leading-tight">
+          Melhor visto do que descrito
         </h2>
       </div>
 
-      <div className="mt-10 grid gap-5 sm:grid-cols-3">
-        {slots.map((slot) => (
-          <PlaceholderMidia
-            key={slot.rotulo}
-            rotulo={slot.rotulo}
-            nota={slot.nota}
-            className="aspect-9/16"
-          />
-        ))}
+      {/* Trilho de reels — formato vertical, arrastando na horizontal. */}
+      <div className="mx-auto max-w-mima px-6 lg:px-10">
+        <ul className="-mx-6 mt-10 flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 pb-4 lg:-mx-10 lg:px-10">
+          {slots.map((slot) => (
+            <li key={slot.rotulo} className="w-64 shrink-0 snap-start sm:w-72">
+              <PlaceholderMidia
+                rotulo={slot.rotulo}
+                nota={slot.nota}
+                className="aspect-9/16"
+              />
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

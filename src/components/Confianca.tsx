@@ -9,7 +9,7 @@ const pilares = [
   {
     titulo: "Ovo pasteurizado, nunca cru",
     texto:
-      "Nossa receita leva ovo — pasteurizado antes de chegar à cozinha, num processo térmico que elimina o risco sem cozinhar o ovo. A cremosidade vem da gordura vegetal e do ponto exato da massa.",
+      "Nossa receita leva ovo — pasteurizado antes de chegar à cozinha, num processo térmico que elimina o risco sem cozinhar o ovo.",
   },
   {
     titulo: "Produção e frio controlados",
@@ -20,19 +20,21 @@ const pilares = [
 
 export default function Confianca() {
   return (
-    <section id="pode-comer-crua" className="bg-baunilha py-16 lg:py-20">
-      <div className="mx-auto max-w-mima px-6 lg:px-10">
-        <div className="text-center">
-          <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-caramelo">
-            segurança sem letra miúda
+    <section id="pode-comer-crua" className="py-20 lg:py-24">
+      {/* Assimétrica de propósito: quebra a sequência de seções centralizadas. */}
+      <div className="mx-auto grid max-w-mima items-center gap-12 px-6 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16 lg:px-10">
+        <div>
+          <p className="font-serif text-sm tracking-[0.22em] text-caramelo">
+            sem nada escondido
           </p>
-          <h2 className="mt-3 font-serif text-3xl text-azul text-balance sm:text-4xl">
-            Crua? Pode. De verdade.
+          <h2 className="mt-5 font-serif text-3xl text-azul text-balance sm:text-[2.5rem] sm:leading-tight">
+            Feita para comer crua
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-tinta-suave">
-            Massa de cookie comum não deve ser comida crua por dois motivos: ovo
-            cru e farinha não tratada. A nossa resolve os dois — por projeto,
-            não por sorte. Veja a{" "}
+          <p className="mt-6 text-lg leading-relaxed text-tinta-suave">
+            Massa de cookie comum não é segura crua por dois motivos: ovo cru e
+            farinha não tratada. A gente resolveu os dois desde a receita,
+            porque sabemos que segurança não é opcional quando é pra comer crua.
+            Veja a{" "}
             <Link href="/ingredientes" className="underline hover:text-azul">
               lista completa de ingredientes
             </Link>
@@ -40,11 +42,16 @@ export default function Confianca() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-5 md:grid-cols-3">
+        <div className="space-y-px overflow-hidden rounded-2xl border border-linha">
           {pilares.map((pilar) => (
-            <article key={pilar.titulo} className="rounded-2xl bg-creme p-7">
-              <h3 className="font-serif text-lg text-azul">{pilar.titulo}</h3>
-              <p className="mt-3 text-sm text-tinta-suave">{pilar.texto}</p>
+            <article
+              key={pilar.titulo}
+              className="border-b border-linha bg-white/60 p-7 last:border-0"
+            >
+              <h3 className="font-serif text-xl text-azul text-balance">
+                {pilar.titulo}
+              </h3>
+              <p className="mt-2 text-tinta-suave">{pilar.texto}</p>
             </article>
           ))}
         </div>
